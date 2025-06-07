@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本史クイズ：大政奉還から第二次世界大戦終戦まで</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            color: #334155; /* Dark slate text */
+        }
+        .container {
+            max-width: 800px;
+        }
+        .question-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+        }
+        .answer-section {
+            background-color: #e2e8f0; /* Light gray background for answers */
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+        }
+        .btn-primary {
+            background-color: #4f46e5; /* Indigo-600 */
+            color: #ffffff;
+            padding: 0.75rem 1.5rem; /* py-3 px-6 */
+            border-radius: 0.5rem; /* rounded-lg */
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #4338ca; /* Indigo-700 */
+        }
+        input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8">
+    <div class="container mx-auto py-8">
+        <h1 class="text-4xl sm:text-5xl font-bold text-center mb-8 text-indigo-700">日本史クイズ</h1>
+        <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-12 text-gray-700">大政奉還から第二次世界大戦終戦まで (高校入試形式)</h2>
+
+        <div id="quiz-questions" class="space-y-8 mb-12">
+            <!-- Question 1 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q1. 1867年、江戸幕府が朝廷に政権を返上した出来事を何と呼びますか。最も適切なものを選びなさい。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q1" value="a"> 廃藩置県</label>
+                    <label class="block"><input type="radio" name="q1" value="b"> 大政奉還</label>
+                    <label class="block"><input type="radio" name="q1" value="c"> 版籍奉還</label>
+                    <label class="block"><input type="radio" name="q1" value="d"> 戊辰戦争</label>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q2. 大政奉還の後、明治政府が発布した、政治の基本方針を示す文章は何ですか。正確な名称を記述しなさい。</p>
+                <input type="text" name="q2" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q3. 1871年に全国の藩を廃止して県を設置した改革を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q3" value="a"> 地租改正</label>
+                    <label class="block"><input type="radio" name="q3" value="b"> 秩禄処分</label>
+                    <label class="block"><input type="radio" name="q3" value="c"> 廃藩置県</label>
+                    <label class="block"><input type="radio" name="q3" value="d"> 学制改革</label>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q4. 明治政府が富国強兵のスローガンを掲げ、産業の育成を推し進めた政策を何と呼びますか。</p>
+                <input type="text" name="q4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q5. 1873年に徴兵令が公布され、国民皆兵が目指されましたが、これはどのような兵役制度ですか。簡潔に説明しなさい。</p>
+                <textarea name="q5" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q6. 1874年、板垣退助らが政府に対して、国民が政治に参加する権利を求める意見書を提出しました。この運動を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q6" value="a"> 自由民権運動</label>
+                    <label class="block"><input type="radio" name="q6" value="b"> 大正デモクラシー</label>
+                    <label class="block"><input type="radio" name="q6" value="c"> 普選運動</label>
+                    <label class="block"><input type="radio" name="q6" value="d"> 米騒動</label>
+                </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q7. 1889年に大日本帝国憲法が制定されましたが、この憲法の特色を一つ挙げなさい。</p>
+                <input type="text" name="q7" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q8. 1894年から1895年にかけて日本と清の間で起こった戦争を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q8" value="a"> 日露戦争</label>
+                    <label class="block"><input type="radio" name="q8" value="b"> 日清戦争</label>
+                    <label class="block"><input type="radio" name="q8" value="c"> 義和団事件</label>
+                    <label class="block"><input type="radio" name="q8" value="d"> シベリア出兵</label>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q9. 日清戦争の講和条約である下関条約で、清が日本に割譲した領土のうち、三国干渉によって返還を余儀なくされた地域は何ですか。</p>
+                <input type="text" name="q9" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q10. 1904年から1905年にかけて日本とロシアの間で起こった戦争を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q10" value="a"> 日清戦争</label>
+                    <label class="block"><input type="radio" name="q10" value="b"> 義和団事件</label>
+                    <label class="block"><input type="radio" name="q10" value="c"> 日露戦争</label>
+                    <label class="block"><input type="radio" name="q10" value="d"> 満州事変</label>
+                </div>
+            </div>
+
+            <!-- Question 11 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q11. 日露戦争の講和条約であるポーツマス条約が締結された国はどこですか。</p>
+                <input type="text" name="q11" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 12 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q12. 1910年、日本が朝鮮を併合した出来事を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q12" value="a"> 日韓条約</label>
+                    <label class="block"><input type="radio" name="q12" value="b"> 朝鮮独立</label>
+                    <label class="block"><input type="radio" name="q12" value="c"> 韓国併合</label>
+                    <label class="block"><input type="radio" name="q12" value="d"> 日韓基本条約</label>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q13. 第一次世界大戦が勃発した年を答えなさい。</p>
+                <input type="text" name="q13" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 14 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q14. 第一次世界大戦中、日本が中国に対して突きつけた要求を何と呼びますか。最も適切なものを選びなさい。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q14" value="a"> 日中共同声明</label>
+                    <label class="block"><input type="radio" name="q14" value="b"> 対華21ヶ条要求</label>
+                    <label class="block"><input type="radio" name="q14" value="c"> 満州国承認</label>
+                    <label class="block"><input type="radio" name="q14" value="d"> 日中戦争</label>
+                </div>
+            </div>
+
+            <!-- Question 15 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q15. 第一次世界大戦後の国際平和を目指して設立された国際機関は何ですか。</p>
+                <input type="text" name="q15" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 16 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q16. 大正時代に、普通選挙の実現や、社会主義運動の活発化など、民主主義を求める動きが盛んになった風潮を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q16" value="a"> 文明開化</label>
+                    <label class="block"><input type="radio" name="q16" value="b"> 自由民権運動</label>
+                    <label class="block"><input type="radio" name="q16" value="c"> 大正デモクラシー</label>
+                    <label class="block"><input type="radio" name="q16" value="d"> 国家総動員</label>
+                </div>
+            </div>
+
+            <!-- Question 17 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q17. 1925年に成立した、25歳以上の男子に選挙権を与えた法律は何ですか。</p>
+                <input type="text" name="q17" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 18 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q18. 1929年にアメリカ合衆国から始まった、世界的な経済恐慌を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q18" value="a"> オイルショック</label>
+                    <label class="block"><input type="radio" name="q18" value="b"> 世界恐慌</label>
+                    <label class="block"><input type="radio" name="q18" value="c"> ドットコムバブル</label>
+                    <label class="block"><input type="radio" name="q18" value="d"> アジア通貨危機</label>
+                </div>
+            </div>
+
+            <!-- Question 19 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q19. 世界恐慌の影響を受けて、日本はどのような経済政策をとりましたか。簡潔に説明しなさい。</p>
+                <textarea name="q19" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 20 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q20. 1931年に中国の奉天近郊で起こった、日本軍による鉄道爆破事件をきっかけとした出来事を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q20" value="a"> 盧溝橋事件</label>
+                    <label class="block"><input type="radio" name="q20" value="b"> 満州事変</label>
+                    <label class="block"><input type="radio" name="q20" value="c"> 二・二六事件</label>
+                    <label class="block"><input type="radio" name="q20" value="d"> 五・一五事件</label>
+                </div>
+            </div>
+
+            <!-- Question 21 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q21. 満州事変の後、日本が満州に建国した傀儡国家の名称を答えなさい。</p>
+                <input type="text" name="q21" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 22 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q22. 満州国建国後、国際連盟が日本の行動を非難した報告書を提出した結果、日本が国際連盟を脱退した年を答えなさい。</p>
+                <input type="text" name="q22" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 23 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q23. 1937年、中国の盧溝橋で日本軍と中国軍が衝突し、日中戦争が本格的に始まった事件を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q23" value="a"> 満州事変</label>
+                    <label class="block"><input type="radio" name="q23" value="b"> 西安事件</label>
+                    <label class="block"><input type="radio" name="q23" value="c"> 盧溝橋事件</label>
+                    <label class="block"><input type="radio" name="q23" value="d"> 南京事件</label>
+                </div>
+            </div>
+
+            <!-- Question 24 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q24. 日中戦争の長期化により、日本は国家総動員体制を強化しました。これはどのような体制ですか。簡潔に説明しなさい。</p>
+                <textarea name="q24" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 25 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q25. 1940年、日本、ドイツ、イタリアの三国が同盟を結んだ条約を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q25" value="a"> 日独伊三国同盟</label>
+                    <label class="block"><input type="radio" name="q25" value="b"> 日独伊防共協定</label>
+                    <label class="block"><input type="radio" name="q25" value="c"> 日米通商航海条約</label>
+                    <label class="block"><input type="radio" name="q25" value="d"> 大西洋憲章</label>
+                </div>
+            </div>
+
+            <!-- Question 26 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q26. 第二次世界大戦の開戦年を答えなさい。</p>
+                <input type="text" name="q26" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 27 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q27. 1941年12月、日本がアメリカのハワイにある海軍基地を奇襲攻撃した出来事を何と呼び、これをきっかけに始まった戦争は何ですか。</p>
+                <textarea name="q27" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 28 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q28. 太平洋戦争が始まった当初、日本が「大東亜共栄圏」の建設を掲げましたが、これはどのような構想でしたか。簡潔に説明しなさい。</p>
+                <textarea name="q28" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 29 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q29. 太平洋戦争中、日本の支配下にあった東南アジア諸国では、日本の支配に対してどのような動きが見られましたか。</p>
+                <input type="text" name="q29" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 30 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q30. 太平洋戦争で日本が敗北を喫した決定的な海戦の一つで、1942年6月に起こったものを何と呼びますか。最も適切なものを選びなさい。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q30" value="a"> 真珠湾攻撃</label>
+                    <label class="block"><input type="radio" name="q30" value="b"> ミッドウェー海戦</label>
+                    <label class="block"><input type="radio" name="q30" value="c"> レイテ沖海戦</label>
+                    <label class="block"><input type="radio" name="q30" value="d"> マレー沖海戦</label>
+                </div>
+            </div>
+
+            <!-- Question 31 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q31. 1945年2月、アメリカ軍が日本本土上陸のための重要な拠点として激戦を繰り広げた島は何ですか。</p>
+                <input type="text" name="q31" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 32 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q32. 1945年3月10日、アメリカ軍が東京に対して行った大規模な空襲を何と呼びますか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q32" value="a"> 東京大空襲</label>
+                    <label class="block"><input type="radio" name="q32" value="b"> 広島原爆投下</label>
+                    <label class="block"><input type="radio" name="q32" value="c"> 沖縄戦</label>
+                    <label class="block"><input type="radio" name="q32" value="d"> ポツダム宣言</label>
+                </div>
+            </div>
+
+            <!-- Question 33 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q33. 1945年7月、アメリカ、イギリス、中国の首脳が日本に無条件降伏を要求した宣言は何ですか。</p>
+                <input type="text" name="q33" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 34 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q34. 1945年8月6日、世界で初めて原子爆弾が投下された都市はどこですか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q34" value="a"> 長崎</label>
+                    <label class="block"><input type="radio" name="q34" value="b"> 東京</label>
+                    <label class="block"><input type="radio" name="q34" value="c"> 大阪</label>
+                    <label class="block"><input type="radio" name="q34" value="d"> 広島</label>
+                </div>
+            </div>
+
+            <!-- Question 35 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q35. 1945年8月9日、ソ連が日本に対して宣戦布告し、侵攻を開始した地域は何ですか。</p>
+                <input type="text" name="q35" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 36 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q36. 1945年8月9日、2発目の原子爆弾が投下された都市はどこですか。</p>
+                <div class="space-y-2">
+                    <label class="block"><input type="radio" name="q36" value="a"> 広島</label>
+                    <label class="block"><input type="radio" name="q36" value="b"> 長崎</label>
+                    <label class="block"><input type="radio" name="q36" value="c"> 東京</label>
+                    <label class="block"><input type="radio" name="q36" value="d"> 大阪</label>
+                </div>
+            </div>
+
+            <!-- Question 37 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q37. 日本がポツダム宣言を受諾し、無条件降伏を決定した日を答えなさい。</p>
+                <input type="text" name="q37" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 38 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q38. 日本が降伏文書に署名し、第二次世界大戦が正式に終結した日を答えなさい。</p>
+                <input type="text" name="q38" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 39 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q39. 明治政府が中央集権国家を確立するために行った初期の改革について、二つ具体的に挙げなさい。</p>
+                <textarea name="q39" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 40 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q40. 日清戦争と日露戦争に共通する日本の目的は何でしたか。</p>
+                <input type="text" name="q40" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 41 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q41. 第一次世界大戦後、日本が国際協調路線をとった理由について、簡潔に説明しなさい。</p>
+                <textarea name="q41" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 42 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q42. 満州事変以降、日本の国際的孤立が深まっていった経緯について、具体例を挙げて説明しなさい。</p>
+                <textarea name="q42" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 43 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q43. 太平洋戦争開戦の直接的な要因の一つとして、アメリカなどによる経済制裁がありました。どのような制裁でしたか。</p>
+                <input type="text" name="q43" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 44 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q44. 第二次世界大戦中に日本で行われた国民生活への統制について、具体例を二つ挙げなさい。</p>
+                <textarea name="q44" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 45 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q45. ポツダム宣言には、日本の領土に関する規定が含まれていました。どのような内容でしたか。</p>
+                <input type="text" name="q45" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 46 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q46. 戦後、日本はどのような体制に移行することになったとポツダム宣言で規定されていましたか。</p>
+                <input type="text" name="q46" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 47 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q47. 大正時代、政治や社会において民主主義を求める動きが活発化した背景を説明しなさい。</p>
+                <textarea name="q47" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 48 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q48. 1930年代に日本で軍部の発言力が強まり、政治が軍主導へと変化していった背景を簡潔に説明しなさい。</p>
+                <textarea name="q48" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+
+            <!-- Question 49 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q49. 第二次世界大戦終戦後、日本の独立回復までの期間、連合国軍最高司令官総司令部 (GHQ) の管理下に置かれました。GHQが日本に対して行った主な政策を一つ挙げなさい。</p>
+                <input type="text" name="q49" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+
+            <!-- Question 50 -->
+            <div class="question-card p-6 md:p-8">
+                <p class="font-bold text-lg mb-4">Q50. 太平洋戦争の終戦によって、日本が失ったものについて、二つ具体的に挙げなさい。</p>
+                <textarea name="q50" rows="4" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+            </div>
+        </div>
+
+        <div class="text-center mb-12">
+            <button id="show-answers-btn" class="btn-primary">解答を表示</button>
+        </div>
+
+        <div id="answer-section" class="answer-section p-6 md:p-8 hidden">
+            <h3 class="text-3xl font-bold text-center mb-6 text-indigo-700">解答</h3>
+            <div class="space-y-4">
+                <p><strong>Q1.</strong> b) 大政奉還</p>
+                <p><strong>Q2.</strong> 五箇条の御誓文</p>
+                <p><strong>Q3.</strong> c) 廃藩置県</p>
+                <p><strong>Q4.</strong> 殖産興業</p>
+                <p><strong>Q5.</strong> 満20歳以上の男子に兵役の義務を課し、国民すべてを軍隊に入れることを目指す制度。</p>
+                <p><strong>Q6.</strong> a) 自由民権運動</p>
+                <p><strong>Q7.</strong> 天皇が主権を持ち、統治権を総攬する（天皇主権、欽定憲法、統帥権の独立など）。</p>
+                <p><strong>Q8.</strong> b) 日清戦争</p>
+                <p><strong>Q9.</strong> 遼東半島</p>
+                <p><strong>Q10.</strong> c) 日露戦争</p>
+                <p><strong>Q11.</strong> アメリカ合衆国</p>
+                <p><strong>Q12.</strong> c) 韓国併合</p>
+                <p><strong>Q13.</strong> 1914年</p>
+                <p><strong>Q14.</strong> b) 対華21ヶ条要求</p>
+                <p><strong>Q15.</strong> 国際連盟</p>
+                <p><strong>Q16.</strong> c) 大正デモクラシー</p>
+                <p><strong>Q17.</strong> 普通選挙法</p>
+                <p><strong>Q18.</strong> b) 世界恐慌</p>
+                <p><strong>Q19.</strong> 金輸出再禁止、高橋是清による積極財政（軍事費の拡大と公共投資）など。これにより、世界恐慌からの脱却に成功した。</p>
+                <p><strong>Q20.</strong> b) 満州事変</p>
+                <p><strong>Q21.</strong> 満州国</p>
+                <p><strong>Q22.</strong> 1933年</p>
+                <p><strong>Q23.</strong> c) 盧溝橋事件</p>
+                <p><strong>Q24.</strong> 国家が戦争遂行のため、人的・物的資源を総動員する体制。</p>
+                <p><strong>Q25.</strong> a) 日独伊三国同盟</p>
+                <p><strong>Q26.</strong> 1939年</p>
+                <p><strong>Q27.</strong> 真珠湾攻撃、太平洋戦争</p>
+                <p><strong>Q28.</strong> アジアの国々が欧米の植民地支配から脱却し、日本を盟主とする共存共栄の圏域を形成するという構想。</p>
+                <p><strong>Q29.</strong> 日本の支配に対する民族独立運動や抵抗運動が活発化した。</p>
+                <p><strong>Q30.</strong> b) ミッドウェー海戦</p>
+                <p><strong>Q31.</strong> 硫黄島</p>
+                <p><strong>Q32.</strong> a) 東京大空襲</p>
+                <p><strong>Q33.</strong> ポツダム宣言</p>
+                <p><strong>Q34.</strong> d) 広島</p>
+                <p><strong>Q35.</strong> 満州（または南樺太、千島列島）</p>
+                <p><strong>Q36.</strong> b) 長崎</p>
+                <p><strong>Q37.</strong> 1945年8月14日</p>
+                <p><strong>Q38.</strong> 1945年9月2日</p>
+                <p><strong>Q39.</strong> 廃藩置県、徴兵令、学制発布、地租改正など。</p>
+                <p><strong>Q40.</strong> 朝鮮半島への影響力強化と、中国大陸への権益拡大。</p>
+                <p><strong>Q41.</strong> 第一次世界大戦で欧米列強が疲弊し、国際協調の機運が高まったことや、日本の経済力が向上し、国際的な地位を確立しようとしたため。</p>
+                <p><strong>Q42.</strong> 満州事変を起こして満州国を建国したことに対し、国際連盟のリットン調査団が日本の行動を非難する報告書を提出。これに反発して日本が国際連盟を脱退したことなど。</p>
+                <p><strong>Q43.</strong> 石油や鉄鋼などの戦略物資の禁輸（ABCD包囲網など）。</p>
+                <p><strong>Q44.</strong> 食料の配給制、勤労動員、灯火管制、国家総動員法による人・物資の統制など。</p>
+                <p><strong>Q45.</strong> 日本の主権は本州、北海道、九州、四国及び吾々が決定する諸小島に局限されること。</p>
+                <p><strong>Q46.</strong> 平和的な新秩序を建設し、民主主義的な傾向を復活強化すること。</p>
+                <p><strong>Q47.</strong> 第一次世界大戦後の国際的な民主主義の風潮、都市化の進展と労働者階級の成長、識字率の向上やジャーナリズムの発達などが背景にある。</p>
+                <p><strong>Q48.</strong> 世界恐慌による社会不安、満州事変の成功による軍部の発言力増大、政党政治への不満、陸軍内部の統制派と皇道派の対立など。</p>
+                <p><strong>Q49.</strong> 農地改革、財閥解体、日本国憲法の制定、教育改革など。</p>
+                <p><strong>Q50.</strong> 多くの人命、領土（植民地、海外領土）、経済力、国際的な地位など。</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('show-answers-btn').addEventListener('click', function() {
+            const answerSection = document.getElementById('answer-section');
+            if (answerSection.classList.contains('hidden')) {
+                answerSection.classList.remove('hidden');
+                this.textContent = '解答を非表示';
+            } else {
+                answerSection.classList.add('hidden');
+                this.textContent = '解答を表示';
+            }
+        });
+    </script>
+</body>
+</html>
